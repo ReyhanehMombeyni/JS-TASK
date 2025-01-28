@@ -30,3 +30,16 @@ function timeFormat (time) {
     }
 }
 timeFormat(14);
+
+// Whether or not a number is within a specified range.
+const num=0, min=0, max=0;
+function isWithin (num, min, max) {
+    if(num>=min && num<=max) {
+        console.log("Number is within sperified range.")
+    }
+    else {
+        console.log("Number isn't within sperified range.")
+    }
+}
+isWithin (17, 10, 15);
+
