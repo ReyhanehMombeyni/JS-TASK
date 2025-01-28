@@ -66,3 +66,27 @@ function BMI (weight, height) {
 }
 BMI (70, 1.75)
 
+
+// Leap Year
+const year=0;
+function isLeapYear (year) {
+    if (year>=1244 && year<=1342) {
+        if(year%33===1 || year%33===5 || year%33===9 || year%33===13 || year%33===17 || year%33===21 || year%33===26 || year%33===30) {
+            console.log("Year is leap year.")
+        }
+        else {
+            console.log("Year isn't leap year.")
+        }
+    }
+    else if (year>=1343 && year<=1472) {
+        if(year%33===1 || year%33===5 || year%33===9 || year%33===13 || year%33===17 || year%33===22 || year%33===26 || year%33===30) {
+            console.log("Year is leap year.")
+        }
+        else {
+            console.log("Year isn't leap year.")
+        }
+    }
+}
+isLeapYear(1251)
+
+
