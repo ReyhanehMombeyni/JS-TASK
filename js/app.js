@@ -104,3 +104,13 @@ function findMinimum (array) {
 findMinimum([43,65,24,78,56,98])
 
 
+// Reverse Function
+const initial_string="";
+function reverseFunction (initial_string) {
+    let new_string="";
+    for(i=initial_string.length-1; i>=0; i--) {
+        new_string+= initial_string[i]
+    }
+    console.log("The reverse string is:", new_string)
+}
+reverseFunction("hello beautiful")
