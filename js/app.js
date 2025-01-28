@@ -90,3 +90,17 @@ function isLeapYear (year) {
 isLeapYear(1251)
 
 
+// findMinimum Function
+const array=[];
+function findMinimum (array) {
+    let min=array[0];
+    for(i=1; i<array.length; i++) {
+        if(array[i]<min) {
+            min= array[i];
+        }
+    }
+    console.log("The smallest number in the array is:", min)
+}
+findMinimum([43,65,24,78,56,98])
+
+
