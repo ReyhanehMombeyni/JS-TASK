@@ -12,3 +12,21 @@ function isPrime (number) {
 }
 
 isPrime(727);
+
+
+// Time Format Task
+const time=0;
+function timeFormat (time) {
+    let time_12_hour;
+    if(time<0 || time>24) {
+        console.log("The time range entered isn't correct.")
+    }
+    else if (time>12 && time<25) {
+        time_12_hour= time%12;
+        console.log("Time is", time_12_hour, "!")
+    }
+    else {
+        console.log("Time Format is correct.")
+    }
+}
+timeFormat(14);
