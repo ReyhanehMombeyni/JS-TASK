@@ -114,3 +114,17 @@ function reverseFunction (initial_string) {
     console.log("The reverse string is:", new_string)
 }
 reverseFunction("hello beautiful")
+
+
+// Vowels Function
+function vowelsFunction (input) {
+    const input_string= input.toUpperCase();
+    let isExist= false;
+    for(i=0; i<input.length; i++){
+        if(input_string[i]==="O" || input_string[i]==="A" || input_string[i]==="E" || input_string[i]==="I" || input_string[i]==="U") {
+            isExist= true;
+        }      
+    }
+    console.log(isExist)
+}
+vowelsFunction("hello")
